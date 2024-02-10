@@ -1,6 +1,6 @@
 pandas
 torch
 numpy
-sklearn
+scikit-learn
 matplotlib
 seaborn
