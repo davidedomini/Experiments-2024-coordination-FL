@@ -2,7 +2,7 @@ from torchvision import datasets, transforms
 
 
 def get_train_test_dataset():
-    data_dir = 'data/'
+    data_dir = '../data/'
     apply_transform = transforms.ToTensor()
     train_dataset = datasets.MNIST(data_dir,
                                    train=True,
